@@ -238,12 +238,12 @@ footer.page-footer {
 
   h3 {
     font-size: 1.9rem;
-    margin: 0.1rem 0.1rem;
+    margin: 0.15rem 0.15rem;
   }
 
   h5 {
     font-size: 1.15rem;
-    margin: 0.1rem 0.1rem;
+    margin: 0.15rem 0.15rem;
   }
 
   body {
@@ -253,7 +253,7 @@ footer.page-footer {
 
 @media only screen and (min-width: 994px) and (min-height: 721px) and (max-height: 750px) {
   .profile-image {
-    max-width: 10vw;
+    max-width: 9vw;
   }
 
   .logo {
@@ -275,7 +275,7 @@ footer.page-footer {
   }
 
   .profile-image {
-    max-width: 10vw;
+    max-width: 9.7vw;
   }
 
   h3 {
