@@ -165,3 +165,11 @@ footer.page-footer {
     font-size: 2.1em;
   }
 }
+
+.header {
+  margin-bottom: 1.8rem;
+}
+
+.btn-large {
+  font-size: 1.3rem;
+}
