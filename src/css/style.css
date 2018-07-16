@@ -115,7 +115,7 @@ footer.page-footer {
 
 .logo {
   display: block;
-  max-width: 7vw;
+  max-width: 6.2vw;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -179,7 +179,31 @@ footer.page-footer {
   }
 }
 
-@media only screen and (min-width: 994px) and (max-height: 690px) {
+@media only screen and (min-width: 994px) and (max-height: 550px) {
+  .profile-image {
+    max-width: 7vw;
+  }
+
+  .logo {
+    max-width: 4vw;
+  }
+
+  h3 {
+    font-size: 1.65rem;
+    margin: 0.05rem 0.05rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+    margin: 0.05rem 0.05rem;
+  }
+
+  body {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 994px) and (min-height: 551px) and (max-height: 690px) {
   .profile-image {
     max-width: 7vw;
   }
@@ -190,10 +214,12 @@ footer.page-footer {
 
   h3 {
     font-size: 1.75rem;
+    margin: 0.1rem 0.1rem;
   }
 
   h5 {
     font-size: 1.05rem;
+    margin: 0.1rem 0.1rem;
   }
 
   body {
@@ -201,29 +227,51 @@ footer.page-footer {
   }
 }
 
-@media only screen and (min-width: 994px) and (min-height: 691px) and (max-height: 750px) {
+@media only screen and (min-width: 994px) and (min-height: 691px) and (max-height: 720px) {
+  .profile-image {
+    max-width: 7vw;
+  }
+
+  .logo {
+    max-width: 5vw;
+  }
+
+  h3 {
+    font-size: 1.9rem;
+    margin: 0.1rem 0.1rem;
+  }
+
+  h5 {
+    font-size: 1.15rem;
+    margin: 0.1rem 0.1rem;
+  }
+
+  body {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 994px) and (min-height: 721px) and (max-height: 750px) {
   .profile-image {
     max-width: 10vw;
   }
 
   .logo {
-    max-width: 6vw;
+    max-width: 5.7vw;
   }
 
   h3 {
-    font-size: 1.9rem;
-    margin: 0 0;
+    font-size: 2rem;
   }
 
   h5 {
     font-size: 1.25rem;
-    margin: 0 0;
   }
 }
 
 @media only screen and (min-width: 994px) and (min-height: 751px) and (max-height: 800px) {
   .logo {
-    max-width: 7.5vw;
+    max-width: 6vw;
   }
 
   .profile-image {
