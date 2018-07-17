@@ -48,32 +48,6 @@ p {
   color: #26a69a;
 }
 
-.parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
-}
-  .parallax-container .section {
-    width: 100%;
-  }
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
-
 .icon-block {
   padding: 0 15px;
 }
@@ -147,16 +121,22 @@ footer.page-footer {
   background-color: #ffeb3b;
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+@media only screen and (min-height: 530px) and (min-width: 993px){
   .landing-image {
     margin: 0 -30%;
   }
 }
 
-@media only screen and (max-width: 993px) {
+@media only screen and (max-width: 992px) {
   .landing-image {
     width: 100vw;
-    heigh: auto;
+    height: auto;
   }
 
   .profile-image {
@@ -166,12 +146,20 @@ footer.page-footer {
   .logo {
     max-width: 15vw;
   }
+
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
 }
 
 @media only screen and (max-width: 530px) {
   .landing-image {
     width: 100vw;
-    heigh: auto;
+    height: auto;
   }
 
   h3 {
@@ -179,7 +167,241 @@ footer.page-footer {
   }
 }
 
-@media only screen and (min-width: 994px) and (max-height: 550px) {
+@media only screen and (min-width: 993px) and (max-height: 500px){
+  .row .col.m1 {
+    width: 8.3333333333%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+  .row .col.m2 {
+    width: 16.6666666667%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+  .row .col.m3 {
+    width: 25%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+  .row .col.m4 {
+    width: 33.3333333333%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+  .row .col.m5 {
+    width: 41.6666666667%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+  .row .col.m6 {
+    width: 50%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+  .row .col.m7 {
+    width: 58.3333333333%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+  .row .col.m8 {
+    width: 66.6666666667%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+  .row .col.m9 {
+    width: 75%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+  .row .col.m10 {
+    width: 83.3333333333%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+  .row .col.m11 {
+    width: 91.6666666667%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+  .row .col.m12 {
+    width: 100%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+  .row .col.offset-m1 {
+    margin-left: 8.3333333333%;
+  }
+  .row .col.pull-m1 {
+    right: 8.3333333333%;
+  }
+  .row .col.push-m1 {
+    left: 8.3333333333%;
+  }
+  .row .col.offset-m2 {
+    margin-left: 16.6666666667%;
+  }
+  .row .col.pull-m2 {
+    right: 16.6666666667%;
+  }
+  .row .col.push-m2 {
+    left: 16.6666666667%;
+  }
+  .row .col.offset-m3 {
+    margin-left: 25%;
+  }
+  .row .col.pull-m3 {
+    right: 25%;
+  }
+  .row .col.push-m3 {
+    left: 25%;
+  }
+  .row .col.offset-m4 {
+    margin-left: 33.3333333333%;
+  }
+  .row .col.pull-m4 {
+    right: 33.3333333333%;
+  }
+  .row .col.push-m4 {
+    left: 33.3333333333%;
+  }
+  .row .col.offset-m5 {
+    margin-left: 41.6666666667%;
+  }
+  .row .col.pull-m5 {
+    right: 41.6666666667%;
+  }
+  .row .col.push-m5 {
+    left: 41.6666666667%;
+  }
+  .row .col.offset-m6 {
+    margin-left: 50%;
+  }
+  .row .col.pull-m6 {
+    right: 50%;
+  }
+  .row .col.push-m6 {
+    left: 50%;
+  }
+  .row .col.offset-m7 {
+    margin-left: 58.3333333333%;
+  }
+  .row .col.pull-m7 {
+    right: 58.3333333333%;
+  }
+  .row .col.push-m7 {
+    left: 58.3333333333%;
+  }
+  .row .col.offset-m8 {
+    margin-left: 66.6666666667%;
+  }
+  .row .col.pull-m8 {
+    right: 66.6666666667%;
+  }
+  .row .col.push-m8 {
+    left: 66.6666666667%;
+  }
+  .row .col.offset-m9 {
+    margin-left: 75%;
+  }
+  .row .col.pull-m9 {
+    right: 75%;
+  }
+  .row .col.push-m9 {
+    left: 75%;
+  }
+  .row .col.offset-m10 {
+    margin-left: 83.3333333333%;
+  }
+  .row .col.pull-m10 {
+    right: 83.3333333333%;
+  }
+  .row .col.push-m10 {
+    left: 83.3333333333%;
+  }
+  .row .col.offset-m11 {
+    margin-left: 91.6666666667%;
+  }
+  .row .col.pull-m11 {
+    right: 91.6666666667%;
+  }
+  .row .col.push-m11 {
+    left: 91.6666666667%;
+  }
+  .row .col.offset-m12 {
+    margin-left: 100%;
+  }
+  .row .col.pull-m12 {
+    right: 100%;
+  }
+  .row .col.push-m12 {
+    left: 100%;
+  }
+
+  .landing-image {
+    width: 100vw;
+    max-height: 100%;
+    height: 100%;
+  }
+
+  .profile-image {
+    max-width: 30vw;
+  }
+
+  .logo {
+    max-width: 12vw;
+  }
+
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (min-width: 993px) and (min-height: 501px) and (max-height: 530px) {
+  .profile-image {
+    max-width: 6vw;
+  }
+
+  .logo {
+    max-width: 3.5vw;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    margin: 0 0;
+  }
+
+  h5 {
+    font-size: 0.9rem;
+    margin: 0 0;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  br {
+    font-size: smaller;
+  }
+}
+
+@media only screen and (min-width: 993px) and (min-height: 531px) and (max-height: 560px) {
   .profile-image {
     max-width: 7vw;
   }
@@ -203,7 +425,7 @@ footer.page-footer {
   }
 }
 
-@media only screen and (min-width: 994px) and (min-height: 551px) and (max-height: 690px) {
+@media only screen and (min-width: 993px) and (min-height: 561px) and (max-height: 680px) {
   .profile-image {
     max-width: 7vw;
   }
@@ -227,7 +449,7 @@ footer.page-footer {
   }
 }
 
-@media only screen and (min-width: 994px) and (min-height: 691px) and (max-height: 720px) {
+@media only screen and (min-width: 993px) and (min-height: 681px) and (max-height: 720px) {
   .profile-image {
     max-width: 7vw;
   }
@@ -251,7 +473,7 @@ footer.page-footer {
   }
 }
 
-@media only screen and (min-width: 994px) and (min-height: 721px) and (max-height: 750px) {
+@media only screen and (min-width: 993px) and (min-height: 721px) and (max-height: 750px) {
   .profile-image {
     max-width: 9vw;
   }
@@ -261,15 +483,15 @@ footer.page-footer {
   }
 
   h3 {
-    font-size: 2rem;
+    font-size: 2.07rem;
   }
 
   h5 {
-    font-size: 1.25rem;
+    font-size: 1.255rem;
   }
 }
 
-@media only screen and (min-width: 994px) and (min-height: 751px) and (max-height: 800px) {
+@media only screen and (min-width: 993px) and (min-height: 751px) and (max-height: 800px) {
   .logo {
     max-width: 6vw;
   }
