@@ -28,11 +28,14 @@ body {
 
 html {
   font-family: "Neue Haas Grotesk Display Pro 55", Helvetica, Arial, sans-serif !important;
-  font-size: 0.9em;
 }
 
 h1, h2, h3{
   font-family: "Neue Haas Grotesk Display Pro 75", Helvetica, Arial, sans-serif !important;
+}
+
+h5.less-margin {
+  margin: 0.5rem;
 }
 
 nav ul a,
@@ -135,6 +138,7 @@ footer.page-footer {
 
 @media only screen and (max-width: 992px) {
   .landing-image {
+    max-width: 992px;
     width: 100vw;
     height: auto;
   }
@@ -158,6 +162,7 @@ footer.page-footer {
 
 @media only screen and (max-width: 530px) {
   .landing-image {
+    max-width: 530px;
     width: 100vw;
     height: auto;
   }
@@ -352,7 +357,7 @@ footer.page-footer {
   .landing-image {
     width: 100vw;
     max-height: 100%;
-    height: 100%;
+    height: auto;
   }
 
   .profile-image {
@@ -401,18 +406,18 @@ footer.page-footer {
   }
 }
 
-@media only screen and (min-width: 993px) and (min-height: 531px) and (max-height: 560px) {
+@media only screen and (min-width: 993px) and (min-height: 531px) and (max-height: 563px) {
   .profile-image {
     max-width: 7vw;
   }
 
   .logo {
-    max-width: 4vw;
+    max-width: 3.7vw;
   }
 
   h3 {
     font-size: 1.65rem;
-    margin: 0.05rem 0.05rem;
+    margin: 0.1rem 0.1rem;
   }
 
   h5 {
@@ -425,23 +430,23 @@ footer.page-footer {
   }
 }
 
-@media only screen and (min-width: 993px) and (min-height: 561px) and (max-height: 680px) {
+@media only screen and (min-width: 993px) and (min-height: 564px) and (max-height: 610px) {
   .profile-image {
-    max-width: 7vw;
+    max-width: 8vw;
   }
 
   .logo {
-    max-width: 5vw;
+    max-width: 4vw;
   }
 
   h3 {
-    font-size: 1.75rem;
-    margin: 0.1rem 0.1rem;
+    font-size: 1.72rem;
+    margin: 0.12rem 0.12rem;
   }
 
   h5 {
-    font-size: 1.05rem;
-    margin: 0.1rem 0.1rem;
+    font-size: 1.02rem;
+    margin: 0.05rem 0.05rem;
   }
 
   body {
@@ -449,13 +454,37 @@ footer.page-footer {
   }
 }
 
-@media only screen and (min-width: 993px) and (min-height: 681px) and (max-height: 720px) {
+@media only screen and (min-width: 993px) and (min-height: 611px) and (max-height: 650px) {
   .profile-image {
-    max-width: 7vw;
+    max-width: 8vw;
   }
 
   .logo {
-    max-width: 5vw;
+    max-width: 4vw;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+    margin: 0.13rem 0.13rem;
+  }
+
+  h5 {
+    font-size: 1.02rem;
+    margin: 0.05rem 0.05rem;
+  }
+
+  body {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 993px) and (min-height: 651px) and (max-height: 680px) {
+  .profile-image {
+    max-width: 10vw;
+  }
+
+  .logo {
+    max-width: 4vw;
   }
 
   h3 {
@@ -464,22 +493,46 @@ footer.page-footer {
   }
 
   h5 {
-    font-size: 1.15rem;
-    margin: 0.15rem 0.15rem;
+    font-size: 1.08rem;
+    margin: 0.08rem 0.08rem;
   }
 
   body {
-    font-size: 14px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 993px) and (min-height: 681px) and (max-height: 720px) {
+  .profile-image {
+    max-width: 10.5vw;
+  }
+
+  .logo {
+    max-width: 4.9vw;
+  }
+
+  h3 {
+    font-size: 2.02rem;
+    margin: 1rem 1rem;
+  }
+
+  h5 {
+    font-size: 1.2rem;
+    margin: 1rem 1rem;
+  }
+
+  body {
+    font-size: 15px;
   }
 }
 
 @media only screen and (min-width: 993px) and (min-height: 721px) and (max-height: 750px) {
   .profile-image {
-    max-width: 9vw;
+    max-width: 12vw;
   }
 
   .logo {
-    max-width: 5.7vw;
+    max-width: 5.5vw;
   }
 
   h3 {
@@ -489,23 +542,51 @@ footer.page-footer {
   h5 {
     font-size: 1.255rem;
   }
+
+  body {
+    font-size: 15px;
+  }
 }
 
 @media only screen and (min-width: 993px) and (min-height: 751px) and (max-height: 800px) {
+  .profile-image {
+    max-width: 14vw;
+  }
+
   .logo {
     max-width: 6vw;
   }
-
-  .profile-image {
-    max-width: 9.7vw;
-  }
-
   h3 {
     font-size: 2.15rem;
   }
 
   h5 {
     font-size: 1.3rem;
+  }
+
+  body {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 993px) and (min-height: 801px) {
+  .profile-image {
+    max-width: 14vw;
+  }
+
+  .logo {
+    max-width: 6vw;
+  }
+  h3 {
+    font-size: 2.2rem;
+  }
+
+  h5 {
+    font-size: 1.4rem;
+  }
+
+  body {
+    font-size: 16px;
   }
 }
 
